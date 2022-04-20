@@ -253,7 +253,10 @@ ul{
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
+    transition: color 0.3s;
+    position: relative;
 }
+.aside .nav li a:hover,
 .aside .nav li a.active{
     color: var(--skin-color);
 }
@@ -590,12 +593,16 @@ h3.my-profession{
     max-width: 25%;
     text-align: center;
     margin-bottom: 60px;
+    transition: 0.3s ease;
+}
+.contact .contact-info-item:hover{
+    transform: translateY(-8px);
 }
 .contact .contact-info-item .icon{
     display: inline-block;
 }
 .contact .contact-info-item .icon .fa{
-    font-size: 25px;
+    font-size: 50px;
     color: var(--skin-color);
 }
 .contact .contact-info-item h4{
