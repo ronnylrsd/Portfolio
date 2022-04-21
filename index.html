@@ -437,41 +437,43 @@
                         <h3 class="contact-title padd-15">ME ENVIA UMA MENSSAGEM</h3>
                         <h4 class="contact-sub-title padd-15">EU SOU BASTANTE ACESSÍVEL À MENSSAGENS</h4>
                         <!--contact form start-->
-                        <div class="row">
-                            <div class="contact-form padd-15">
-                                <div class="row">
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Nome">
+                        <form action="php/contato.php" method="POST">
+                            <div class="row">
+                                <div class="contact-form padd-15">
+                                    <div class="row">
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                            <input type="text" name="name" class="form-control" placeholder="Nome">
+                                            </div>
+                                        </div>
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                            <input type="email" name="email" class="form-control" placeholder="E-mail">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="E-mail">
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                            <input type="text" name="subject" class="form-control" placeholder="Assunto">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Assunto">
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                            <textarea class="form-control" name="message" placeholder="Mensagem"></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                        <textarea class="form-control" placeholder="Mensagem"></textarea>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn">Enviar Mensagem</button>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <button type="submit" class="btn">Enviar Mensagem</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                         <!--contact form end-->
                     </div>
                 </section>
