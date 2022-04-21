@@ -1,455 +1,594 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <!--Necessário?-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ronny-Portfolio</title>
-        <!--CSS Files-->
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/skins/color-1.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <!--Style Switcher-->
-        <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-        <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-        <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-        <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-        <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-        <link rel="stylesheet" href="css/style-switcher.css">
-    </head>
-    <body>
-        <!--Main Conatiner Start-->
-        <div class="main-container">
-            <!--Aside Start-->
-            <div class="aside">
-                <div class="logo">
-                    <a href="#"><span>R</span>lrsd</a>
-                </div>
-                <div class="nav-toggler">
-                    <span></span>
-                </div>
-                <ul class="nav">
-                    <li><a href="#home" class="active"><i class="fa fa-home"></i> Início</a></li>
-                    <li><a href="#about"><i class="fa fa-user"></i> Sobre</a></li>
-                    <li><a href="#service"><i class="fa fa-list"></i>Serviços</a></li>
-                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfólio</a></li>
-                    <li><a href="#contact"><i class="fa fa-comments"></i>Contatos</a></li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <!--Necessário?-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronny-Portfolio</title>
+    <!--Fav Icon-->
+    <link rel="icon" href="/imagens/favIcon/portfolio.png">
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--Style Switcher-->
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+  </head>
+  <body>
+    <!--Main Conatiner Start-->
+    <div class="main-container">
+      <!--Aside Start-->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>R</span>lrsd</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Início</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> Sobre</a>
+          </li>
+          <li>
+            <a href="#service"><i class="fa fa-list"></i>Serviços</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfólio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contatos</a>
+          </li>
+        </ul>
+      </div>
+      <!--Aside End-->
+      <!--Main Content Start-->
+      <div class="main-content">
+        <!--Home Section Start-->
+        <section class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Oi, meu nome é <span class="name">Ronny Ribeiro</span>
+                </h3>
+                <h3 class="my-profession">
+                  Eu sou um <span class="typing">desenvolvedor</span>
+                </h3>
+                <p>
+                  Eu sou um desenvolvedor com uma experiência de quase 2 anos.
+                  Minha especialidade é criar websites, criação de bots,
+                  personalização de sites, e muito mais...
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/16mRa-Cow0JBBjE6Z2Ubs-6aYSHlMKSvJ/view"
+                  target="_blank"
+                  class="btn"
+                  >Baixar meu CV</a
+                >
+              </div>
+              <div class="home-img padd-15">
+                <img src="imagens/hero.jpeg" alt="" />
+              </div>
             </div>
-            <!--Aside End-->
-            <!--Main Content Start-->
-            <div class="main-content">
-                <!--Home Section Start-->
-                <section class="home active section" id="home">
-                    <div class="container">
-                        <div class="row">
-                            <div class="home-info padd-15">
-                                <h3 class="hello">Oi, meu nome é <span class="name">Ronny Ribeiro</span></h3>
-                                <h3 class="my-profession">Eu sou um <span class="typing">desenvolvedor</span></h3>
-                                <p>Eu sou um desenvolvedor com uma experiência de quase 2 anos. Minha especialidade é
-                                    criar websites, criação de bots, personalização de sites, e muito mais...
-                                </p>
-                                <a href="https://drive.google.com/file/d/16mRa-Cow0JBBjE6Z2Ubs-6aYSHlMKSvJ/view" target="_blank" class="btn">Baixar meu CV</a>
-                            </div>
-                            <div class="home-img padd-15">
-                                <img src="imagens/hero.jpeg" alt="">
-                            </div>
-                        </div>
+          </div>
+        </section>
+        <!--Home Section End-->
+        <!--About Section Start-->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Sobre mim</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>Eu sou Ronny Ribeiro o <span>Desenvolvedor</span></h3>
+                    <p>
+                      Curso Ciência da Computação na Universidade Católica de
+                      Pernambuco (UNICAP). Quando menor, fui incentivado por
+                      meus primos mais velhos ao uso de técnologio, bem como,
+                      pelo gosto a jogos, que adicionado ao apoio dos meus pais
+                      e meu próprio esforço, conheci a programação como uma
+                      ferramenta de estudo. Gosto muito de ambas as áreas de
+                      front e back-end, mesmo que atualmente conheça mais sobre
+                      front-end, continuo a estudar e aprimorar minhas
+                      habilidades!
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Aniversário: <span>16 abr 2002</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Idade: <span>20 anos</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Portfolio: <span>www.ronnylrsd.vercel.app</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>E-mail: <span>ronnylrsd@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          Escolaridade: <span>Ensino Superior Incompleto</span>
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Celular: <span>+55 (81) 98105-5303</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Cidade: <span>Recife</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Autônomo: <span>Disponível</span></p>
+                      </div>
                     </div>
-                </section>
-                <!--Home Section End-->
-                <!--About Section Start-->
-                <section class="about section" id="about">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Sobre mim</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="about-content padd-15">
-                                <div class="row">
-                                    <div class="about-text padd-15">
-                                        <h3>Eu sou Ronny Ribeiro o <span>Desenvolvedor</span></h3>
-                                        <p>Curso Ciência da Computação na Universidade Católica
-                                            de Pernambuco (UNICAP). Quando menor, fui incentivado por meus primos
-                                            mais velhos ao uso de técnologio, bem como, pelo gosto a jogos, que
-                                            adicionado ao apoio dos meus pais e meu próprio esforço, conheci a
-                                            programação como uma ferramenta de estudo. Gosto muito de ambas as áreas
-                                            de front e back-end, mesmo que atualmente conheça mais sobre front-end,
-                                            continuo a estudar e aprimorar minhas habilidades! 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="personal-info padd-15">
-                                        <div class="row">
-                                            <div class="info-item padd-15">
-                                                <p>Aniversário: <span>16 abr 2002</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Idade: <span>20 anos</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Portfolio: <span>www.ronnylrsd.vercel.app</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>E-mail: <span>ronnylrsd@gmail.com</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Escolaridade: <span>Ensino Superior Incompleto</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Celular: <span>+55 (81) 98105-5303</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Cidade: <span>Recife</span></p>
-                                            </div>
-                                            <div class="info-item padd-15">
-                                                <p>Autônomo: <span>Disponível</span></p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="buttons padd-15">
-                                                <a href="#contact" data-section-index="1" class="btn hire-me">Fala comigo!</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="skills padd-15">
-                                        <div class="row">
-                                            <div class="skill-item padd-15">
-                                                <h5>CSS</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 18.56%;"></div>
-                                                    <div class="skill-percent">18.56%</div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-item padd-15">
-                                                <h5>HTML</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 30.44%;"></div>
-                                                    <div class="skill-percent">30.44%</div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-item padd-15">
-                                                <h5>JavaScript</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 8.81%;"></div>
-                                                    <div class="skill-percent">8.81%</div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-item padd-15">
-                                                <h5>Java</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 41.50%;"></div>
-                                                    <div class="skill-percent">41.50%</div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-item padd-15">
-                                                <h5>Python</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 0.70%;"></div>
-                                                    <div class="skill-percent">0.70%</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="education padd-15">
-                                        <h3 class="title">Educação</h3>
-                                        <div class="row">
-                                            <div class="timeline-box padd-15">
-                                                <div class="timeline shadow-dark">
-                                                    <!--timeline item-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2020 - Hoje
-                                                        </h3>
-                                                        <h4 class="timeline-title">Graduação</h4>
-                                                        <p class="timeline-text">Universidade Católica de Pernambuco</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2017 - 2019
-                                                        </h3>
-                                                        <h4 class="timeline-title">Ensio Médio</h4>
-                                                        <p class="timeline-text">Grupo Gênese de Ensino</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="experience padd-15">
-                                        <h3 class="title">Experiência</h3>
-                                        <div class="row">
-                                            <div class="timeline-box padd-15">
-                                                <div class="timeline shadow-dark">
-                                                    <!--timeline item-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2021 - Hoje
-                                                        </h3>
-                                                        <h4 class="timeline-title">Iniciação Científica</h4>
-                                                        <p class="timeline-text">Universidade Católica de Pernambuco</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> jun de 2021
-                                                        </h3>
-                                                        <h4 class="timeline-title">Next Level Week</h4>
-                                                        <p class="timeline-text">Rocketseat - OriginSix</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> jan de 2021
-                                                        </h3>
-                                                        <h4 class="timeline-title">Microsoft Excel Básico 2016</h4>
-                                                        <p class="timeline-text">Fundação Bradesco</p>
-                                                    </div>
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i> 2020 - 2021
-                                                        </h3>
-                                                        <h4 class="timeline-title">AWS Cloud</h4>
-                                                        <p class="timeline-text">Amazon Web Services Cloud Practitioner Essentials (Second Edition) </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Fala comigo!</a
+                        >
+                      </div>
                     </div>
-                </section>
-                <!--About Section End-->
-                <!--Services Section Start-->
-                <section class="service section" id="service">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Serviços</h2>
-                            </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 18.56%"></div>
+                          <div class="skill-percent">18.56%</div>
                         </div>
-                        <div class="row">
-                            <!--Service item Start-->
-                            <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-mobile-alt"></i>
-                                    </div>
-                                    <h4>Design para Mobile</h4>
-                                    <p>Desenvolvimento para aplicações mobile, tanto de design quanto para front-end e back-end.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
-                             <!--Service item Start-->
-                             <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-laptop-code"></i>
-                                    </div>
-                                    <h4>Design para Web</h4>
-                                    <p>Elaboração para aplicações web, tanto de design quanto para front-end e back-end.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
-                             <!--Service item Start-->
-                             <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-palette"></i>
-                                    </div>
-                                    <h4>Design</h4>
-                                    <p>Embelezamento de websites e apps, podendo ser alterado a escolha do cliente.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
-                             <!--Service item Start-->
-                             <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-code"></i>
-                                    </div>
-                                    <h4>Códigos</h4>
-                                    <p>Tento mantê-los limpos e de fácil entedimento, para, se necessário, atualizações futuras.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
-                             <!--Service item Start-->
-                             <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <h4>Pesquisa</h4>
-                                    <p>Procuro sempre fontes confiáveis para me basear, com a finalidade de trazer força ao meu trabalho.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
-                             <!--Service item Start-->
-                             <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <i class="fa fa-bullhorn"></i>
-                                    </div>
-                                    <h4>Divulgação</h4>
-                                    <p>Me empenho a sempre fazer o máximo de divulgação possível do meu trabalho no meu círculo de amigos, colegas de trabalho e família.</p>
-                                </div>
-                            </div>
-                            <!--Service item End-->
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 30.44%"></div>
+                          <div class="skill-percent">30.44%</div>
                         </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 8.81%"></div>
+                          <div class="skill-percent">8.81%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Java</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 41.5%"></div>
+                          <div class="skill-percent">41.50%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Python</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 0.7%"></div>
+                          <div class="skill-percent">0.70%</div>
+                        </div>
+                      </div>
                     </div>
-                </section>
-                <!--Services Section End-->
-                <!--Portfolio Section Start-->
-                <section class="portfolio section" id="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Portfolio</h2>
-                            </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Educação</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!--timeline item-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2020 - Hoje
+                            </h3>
+                            <h4 class="timeline-title">Graduação</h4>
+                            <p class="timeline-text">
+                              Universidade Católica de Pernambuco
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2017 - 2019
+                            </h3>
+                            <h4 class="timeline-title">Ensio Médio</h4>
+                            <p class="timeline-text">Grupo Gênese de Ensino</p>
+                          </div>
                         </div>
-                        <div class="row">
-                            <div class="portfolio-heading padd-15">
-                                <h2>Meus últimos projetos :</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/Atividade_Contador_Geracao_Automatica">
-                                            <img src="imagens/projetos/Projeto-Gera-Contador.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/Atividade_Conversao_Dolar_Real">
-                                            <img src="imagens/projetos/Projeto-Conversão-Moedas.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/Atividade-Biografia-Programacao-Web-E-Mobile">
-                                            <img src="imagens/projetos/Projeto-Biografia.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/Whatsapp-Bot">
-                                            <img src="imagens/projetos/Projeto-Bot-Whatsapp.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/OriginSix-NLW">
-                                            <img src="imagens/projetos/Projeto-Site-Empresa.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-                            <!--portfolio item start-->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <a target="_blank" href="https://github.com/ronnylrsd/Programming-3">
-                                            <img src="imagens/projetos/Projeto-Unikut.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--portfolio item end-->
-
-                        </div>
+                      </div>
                     </div>
-                </section>
-                <!--Portfolio Section End-->
-                <!--Contact Section Start-->
-                <section class="contact section" id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Contatos</h2>
-                            </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experiência</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!--timeline item-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2021 - Hoje
+                            </h3>
+                            <h4 class="timeline-title">Iniciação Científica</h4>
+                            <p class="timeline-text">
+                              Universidade Católica de Pernambuco
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> jun de 2021
+                            </h3>
+                            <h4 class="timeline-title">Next Level Week</h4>
+                            <p class="timeline-text">Rocketseat - OriginSix</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> jan de 2021
+                            </h3>
+                            <h4 class="timeline-title">
+                              Microsoft Excel Básico 2016
+                            </h4>
+                            <p class="timeline-text">Fundação Bradesco</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2020 - 2021
+                            </h3>
+                            <h4 class="timeline-title">AWS Cloud</h4>
+                            <p class="timeline-text">
+                              Amazon Web Services Cloud Practitioner Essentials
+                              (Second Edition)
+                            </p>
+                          </div>
                         </div>
-                        <h3 class="contact-title padd-15">Ficou com alguma dúvida ?</h3>
-                        <h4 class="contact-sub-title padd-15">EU ESTOU AOS SEUS SERVIÇOS</h4>
-                        <div class="row">
-                            <!--contact info item start-->
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=+5581989155303&text=Oi! Gostaria de agendar um horário.">
-                                        <i class="fa fa-brands fa-whatsapp-square"></i>
-                                    </a>
-                                </div>
-                                <h4>Whatsapp</h4>
-                            </div>
-                            <!--contact info item end-->
-                            <!--contact info item start-->
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <a target="_blank" href="https://www.instagram.com/ronny.ribeiro1604/">
-                                        <i class="fa fa-brands fa-instagram-square"></i>
-                                    </a>
-                                </div>
-                                <h4>Instagram</h4>
-                            </div>
-                            <!--contact info item end-->
-                            <!--contact info item start-->
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <a target="_blank" href="https://github.com/ronnylrsd">
-                                        <i class="fa fa-brands fa-github-square"></i>
-                                    </a>
-                                </div>
-                                <h4>GitHub</h4>
-                            </div>
-                            <!--contact info item end-->
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <a target="_blank" href="https://www.linkedin.com/in/ronny-lima-ribeiro-da-silva/">
-                                        <i class="fa fa-brands fa-linkedin"></i>
-                                    </a>
-                                </div>
-                                <h4>LinkedIn</h4>
-                            </div>
-                            <!--contact info item end-->
-                        </div>
-                        <h3 class="contact-title padd-15">ME ENVIA UMA MENSSAGEM</h3>
-                        <h4 class="contact-sub-title padd-15">EU SOU BASTANTE ACESSÍVEL À MENSSAGENS</h4>
-                        <!--contact form start-->
-                        <!-- <form action="" method="POST">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--About Section End-->
+        <!--Services Section Start-->
+        <section class="service section" id="service">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Serviços</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Design para Mobile</h4>
+                  <p>
+                    Desenvolvimento para aplicações mobile, tanto de design
+                    quanto para front-end e back-end.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Design para Web</h4>
+                  <p>
+                    Elaboração para aplicações web, tanto de design quanto para
+                    front-end e back-end.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Design</h4>
+                  <p>
+                    Embelezamento de websites e apps, podendo ser alterado a
+                    escolha do cliente.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Códigos</h4>
+                  <p>
+                    Tento mantê-los limpos e de fácil entedimento, para, se
+                    necessário, atualizações futuras.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                  <h4>Pesquisa</h4>
+                  <p>
+                    Procuro sempre fontes confiáveis para me basear, com a
+                    finalidade de trazer força ao meu trabalho.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+              <!--Service item Start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Divulgação</h4>
+                  <p>
+                    Me empenho a sempre fazer o máximo de divulgação possível do
+                    meu trabalho no meu círculo de amigos, colegas de trabalho e
+                    família.
+                  </p>
+                </div>
+              </div>
+              <!--Service item End-->
+            </div>
+          </div>
+        </section>
+        <!--Services Section End-->
+        <!--Portfolio Section Start-->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>Meus últimos projetos :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/Atividade_Contador_Geracao_Automatica"
+                    >
+                      <img
+                        src="imagens/projetos/Projeto-Gera-Contador.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/Atividade_Conversao_Dolar_Real"
+                    >
+                      <img
+                        src="imagens/projetos/Projeto-Conversão-Moedas.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/Atividade-Biografia-Programacao-Web-E-Mobile"
+                    >
+                      <img
+                        src="imagens/projetos/Projeto-Biografia.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/Whatsapp-Bot"
+                    >
+                      <img
+                        src="imagens/projetos/Projeto-Bot-Whatsapp.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/OriginSix-NLW"
+                    >
+                      <img
+                        src="imagens/projetos/Projeto-Site-Empresa.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+              <!--portfolio item start-->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      target="_blank"
+                      href="https://github.com/ronnylrsd/Programming-3"
+                    >
+                      <img src="imagens/projetos/Projeto-Unikut.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--portfolio item end-->
+            </div>
+          </div>
+        </section>
+        <!--Portfolio Section End-->
+        <!--Contact Section Start-->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contatos</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Ficou com alguma dúvida ?</h3>
+            <h4 class="contact-sub-title padd-15">
+              EU ESTOU AOS SEUS SERVIÇOS
+            </h4>
+            <div class="row">
+              <!--contact info item start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <a
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+5581989155303&text=Oi! Gostaria de agendar um horário."
+                  >
+                    <i class="fa fa-brands fa-whatsapp-square"></i>
+                  </a>
+                </div>
+                <h4>Whatsapp</h4>
+              </div>
+              <!--contact info item end-->
+              <!--contact info item start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/ronny.ribeiro1604/"
+                  >
+                    <i class="fa fa-brands fa-instagram-square"></i>
+                  </a>
+                </div>
+                <h4>Instagram</h4>
+              </div>
+              <!--contact info item end-->
+              <!--contact info item start-->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <a target="_blank" href="https://github.com/ronnylrsd">
+                    <i class="fa fa-brands fa-github-square"></i>
+                  </a>
+                </div>
+                <h4>GitHub</h4>
+              </div>
+              <!--contact info item end-->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ronny-lima-ribeiro-da-silva/"
+                  >
+                    <i class="fa fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+                <h4>LinkedIn</h4>
+              </div>
+              <!--contact info item end-->
+            </div>
+            <h3 class="contact-title padd-15">ME ENVIA UMA MENSSAGEM</h3>
+            <h4 class="contact-sub-title padd-15">
+              EU SOU BASTANTE ACESSÍVEL À MENSSAGENS
+            </h4>
+            <!--contact form start-->
+            <!-- <form action="" method="POST">
                             <div class="row">
                                 <div class="contact-form padd-15">
                                     <div class="row">
@@ -486,35 +625,38 @@
                                 </div>
                             </div>
                         </form> -->
-                        <!--contact form end-->
-                    </div>
-                </section>
-                <!--Contact Section End-->
-            </div>
-            <!--Main Content End-->
-        </div>
-        <!--Main Container End-->
-        <!--Style Switcher Start-->
-        <div class="style-switcher">
-            <div class="style-switcher-toggler s-icon">
-                <i class="fas fa-cog fa-spin"></i>
-            </div>
-            <div class="day-night s-icon">
-                <i class="fas"></i>
-            </div>
-            <h4>Temas</h4>
-            <div class="colors">
-                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-            </div>
-        </div>
-        <!--Style Switcher End-->
-        <!--JS Files-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-        <script src="js/script.js"></script>
-        <script src="js/style-switcher.js"></script>
-    </body>
+            <!--contact form end-->
+          </div>
+        </section>
+        <!--Contact Section End-->
+      </div>
+      <!--Main Content End-->
+    </div>
+    <!--Main Container End-->
+    <!--Style Switcher Start-->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Temas</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!--Style Switcher End-->
+    <!--JS Files-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
 </html>
